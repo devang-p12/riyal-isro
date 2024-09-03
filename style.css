@@ -1,0 +1,209 @@
+.html,body{
+    margin: 0;
+    padding: 0;
+}
+*{ 
+    background-color: transparent;
+}
+.logo{
+    display: flex;
+    color: white;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+}
+.missions{
+    
+    display: flex;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    gap: 25px;
+
+}
+.one:hover{
+    text-decoration: underline;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.first-pic{
+    position: relative;
+    display: flex;
+    color: white;
+    padding: 100px;
+    padding-top: 300px;
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    flex-direction: column;
+    align-items: end;
+    
+}
+.button{
+    display: flex;
+    color: white;
+    background-color: transparent;
+    border-width: 2px;
+    border-color: white;
+    font-size: xx-large;
+    margin-top: 25px;
+    font-size: large;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.button:hover{
+    background-color: white;
+    color: black;
+}
+.first-pic-one{
+    font-size: medium;
+    font-weight: lighter;
+}
+.first-pic-two{
+    font-weight: bolder;
+    font-size: 50px ;
+}
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    border-width: 0px;
+}
+.second-pic{
+    color: white;
+    background-color: black;
+    display: flex;
+    padding: 100px;
+    padding-top: 300px;
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    flex-direction: column;
+    align-items: start;
+    background-image: url(aditya.webp);
+    background-size: cover;
+    height: 300px;
+}
+.second-pic-one{
+    font-size: medium;
+    font-weight: lighter;
+}
+.second-pic-two{
+    font-weight: bolder;
+    font-size: 50px ;
+}
+.button-two{
+    color: white;
+    border-color: white;
+    border-width: 2px;
+    background-color: transparent;
+    font-size: xx-large;
+    margin-top: 25px;
+    font-size: large;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.button-two:hover{
+    background-color: white;
+    color: black;
+}
+.third-pic{
+    color: white;
+    background-color: black;
+    display: flex;
+    padding: 100px;
+    padding-top: 300px;
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    flex-direction: column;
+    align-items: end;
+    background-image: url(astronaut.jpg);
+    background-size: cover;
+    height: 300px;
+}
+.third-pic-one{
+    font-size: medium;
+    font-weight: lighter;
+}
+.third-pic-two{
+    font-weight: bolder;
+    font-size: 50px ;
+}
+.button-three{
+    color: white;
+    border-color: white;
+    border-width: 2px;
+    background-color: transparent;
+    font-size: xx-large;
+    margin-top: 25px;
+    font-size: large;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.button-three:hover{
+    background-color: white;
+    color: black;
+}
+.fourth-pic{
+    color: white;
+    background-color: black;
+    display: flex;
+    padding: 100px;
+    padding-top: 300px;
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    flex-direction: column;
+    align-items: start;
+    background-image: url(isro.jpeg);
+    background-size: cover;
+    height: 300px;
+}
+
+.fourth-pic-two{
+    font-weight: bolder;
+    font-size: 50px ;
+}
+.button-four{
+    color: white;
+    border-color: white;
+    border-width: 2px;
+    background-color: transparent;
+    font-size: xx-large;
+    margin-top: 25px;
+    font-size: large;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.button-four:hover{
+    background-color: white;
+    color: black;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    background-color: black;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 400px;
+    padding-right: 400px;
+    font-size: small;
+    font-weight: bold;
+}
+
